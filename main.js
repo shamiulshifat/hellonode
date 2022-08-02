@@ -4,9 +4,9 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello www.releaseworksacademy.com\n");
+  response.end("welcome to betterdata\n");
 });
 
-// listen on localhost:8000
-server.listen(8000);
-console.log("Server listening at http://127.0.0.1:8000/");
+// listen on localhost:8001
+server.listen(8001);
+console.log("Server listening at http://127.0.0.1:8001/");
